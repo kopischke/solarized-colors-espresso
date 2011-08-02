@@ -98,6 +98,10 @@ comment.documentation, metadata.comment.documentation {
 	color: #2aa198;
 }
 
+comment.shebang, metadata.comment.shebang {
+	spell-check: disabled;
+}
+
 operator {
     color: #657b83;
 }
