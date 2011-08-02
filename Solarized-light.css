@@ -14,57 +14,57 @@
 
 /* Standard
 ----------------------------------------------------*/
-literal.string {
+string, literal.string {
 	color: #2aa198;
 	spell-check: enabled;
 }
 
-literal.regex {
+regex, literal.regex {
     color: #d33682;
 }
 
-literal.numeric {
+numeric, literal.numeric {
     color: #2aa198;
 }
 
-literal.keyword.constant {
+keyword.constant, literal.keyword.constant {
 	color: #F92672;
 }
 
-literal.keyword.bool {
+keyword.bool, literal.keyword.bool {
     color: #859900;
 }
 
-literal.keyword.nothing {
+keyword.nothing, literal.keyword.nothing {
     color: #859900;
 }
 
-literal.escape {
+escape, literal.escape {
     color: #dc322f;
 }
 
-identifier.function > name {
+function > name, identifier.function > name {
     color: #268bd2;
 }
 
-identifier.type {
+type, identifier.type {
     color: #93a1a1;
     font-weight: bold;
 }
 
-identifier.variable.parameter {
+variable.parameter, identifier.variable.parameter {
 	color: #657b83;
 }
 
-identifier.variable.named-parameter {
+variable.named-parameter, identifier.variable.named-parameter {
 	color: #859900;
 }
 
-identifier.variable.named-parameter > name {
-	font-style: italic;;
+variable.named-parameter > name, identifier.variable.named-parameter > name {
+	font-style: italic;
 }
 
-identifier.variable.instance {
+variable.instance, identifier.variable.instance {
     color: #657b83;
 }
 
@@ -85,11 +85,11 @@ keyword.constant.other {
 	color: #d33682;
 }
 
-metadata {
+comment, metadata {
     color: #93a1a1;
 }
 
-metadata.comment.documentation {
+comment.documentation, metadata.comment.documentation {
 	color: #2aa198;
 	spell-check: enabled;
 }
