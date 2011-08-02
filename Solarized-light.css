@@ -8,7 +8,7 @@
     background-color: #fdf6e3;
 }
 
-* {
+tag, source, sourcecode {
     spell-check: disabled;
 }
 
