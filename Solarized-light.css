@@ -3,7 +3,7 @@
     @override-placeholders html, css, js, php, python
 */
 
-:document-base, @base {
+@base {
     color: #657b83;
     background-color: #fdf6e3;
 }
