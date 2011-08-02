@@ -87,6 +87,7 @@ keyword.constant.other {
 
 comment, metadata {
     color: #93a1a1;
+	spell-check: enabled;
 }
 
 comment.documentation, metadata.comment.documentation {

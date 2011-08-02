@@ -92,11 +92,11 @@ keyword.constant.other {
 
 comment, metadata {
     color: #586e75;
+	spell-check: enabled;
 }
 
 comment.documentation, metadata.comment.documentation {
 	color: #2aa198;
-	spell-check: enabled;
 }
 
 operator {
