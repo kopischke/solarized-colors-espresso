@@ -85,6 +85,10 @@ keyword.constant.other {
 	color: #d33682;
 }
 
+expression, container.expression {
+	spell-check: disabled;
+}
+
 comment, metadata {
     color: #93a1a1;
 	spell-check: enabled;
